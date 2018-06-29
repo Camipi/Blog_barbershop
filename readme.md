@@ -1,0 +1,1 @@
+https://camipi.github.io/Blog_barbershop/
