@@ -4,6 +4,10 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+.bg-dark {
+    background-color: #000000!important;
+}
+
 .brand {
 	max-width: 50%;
 }
@@ -98,11 +102,20 @@ body {
 }
 
 .blogger {
-	border-top: solid 1px #dddddd;
-	padding-top: 5%;
+	padding-top: 2%;
 }
 
 .blogger img {
 	border-radius: 100%;
 	border: solid 2px #dddddd;
+}
+
+.separador {
+	background-color: #dddddd;
+	height: 1px;
+}
+
+.blogger_informacion_imagen .blogger_informacion_texto .blogger_informacion_comentario {
+	padding-left: 0;
+	padding-right: 0;	
 }
