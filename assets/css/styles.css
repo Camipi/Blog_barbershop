@@ -1,5 +1,7 @@
 body {
 	margin: 0 auto;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .brand {
@@ -17,16 +19,19 @@ body {
 .header p {
 	font-size: 4rem;
 	padding-top: 230px;
+	font-family: 'Playfair Display';
+	font-weight: black 900;
+	font-style: italic;
 }
 
 .news {
 	padding-top: 50px;
 }
 
-.fas {
+/*.fas {
 	font-size: 3rem;
 	margin-top: 60px;
-}
+}*/
 
 .far {
 	border: solid 1px #dddddd;
@@ -36,15 +41,16 @@ body {
 }
 
 .icons {
+	margin-top: 20px;
+	margin-bottom: 20px;
 	padding-left: 15%;
-	padding-bottom: 15%;
+	position: relative;
 }
 
 .fa-heart {
 	color: #FFFFFF;
 	font-size: 2em;
 	background-color: #6C6E70;
-	border: solid 1px #6C6E70;
 	border-radius: 100%;
 	padding: 10px;
 }
@@ -53,14 +59,14 @@ body {
 	color: #FFFFFF;
 	font-size: 2em;
 	background-color: #6C6E70;
-	border: solid 1px #6C6E70;
 	border-radius: 100%;
 	padding: 10px;
 }
 
 .fa-comment {
 	color: #FFFFFF;
-	font-size: 2em;
+	font-size: 1em;
+	padding-top: 10px;
 }
 
 .tw {
@@ -68,13 +74,35 @@ body {
 	height: 50px;
 	color: #FFFFFF;
 	background-color: #6C6E70;
-	border: solid 1px #6C6E70;
 	border-radius: 50px;
 	padding: 15px;
-	margin: 	
 }
 
-.fa-comment {
-	padding: 10px;
+.post {
 	margin-top: 0;
+}
+
+.post p {
+	text-align: center;
+}
+
+.fa-user {
+	font-size: 1em;
+	border: solid 1px #dddddd;
+	background-color: #FFFFFF;
+	border-radius: 100%;
+	padding: 8px;
+	position: relative;
+    top: 35px;
+
+}
+
+.blogger {
+	border-top: solid 1px #dddddd;
+	padding-top: 5%;
+}
+
+.blogger img {
+	border-radius: 100%;
+	border: solid 2px #dddddd;
 }
